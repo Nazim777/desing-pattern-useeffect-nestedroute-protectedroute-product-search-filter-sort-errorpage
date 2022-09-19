@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+.div1{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.div2{
+  background-color:green;
+  height: 100vh;
+  flex-basis: 20%;
+}
+
+.div3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div3>ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.link{
+color: white;
+margin-top: 10px;
+font-size: 20px;
+text-decoration: none;
+
+}
+
+.link:hover{
+  background-color: orange;
+}
+
+
+.navLink:hover{
+  background-color: green;
+}
